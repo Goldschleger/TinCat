@@ -2,11 +2,10 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6 {
-font-family:'Montserrat', sans-serif;
-font-weight: bold;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
-
 
 h3 {
   color: black;
@@ -23,16 +22,15 @@ p {
   font-size: 3.5rem;
   font-weight: 900;
 }
+
 .large-heading {
   line-height: 1.5;
   font-size: 3.0rem;
-
 }
 
-.medium-heading{
-font-size: 1.5rem;
+.medium-heading {
+  font-size: 1.5rem;
 }
-
 
 #title {
   text-align: center;
@@ -47,21 +45,19 @@ font-size: 1.5rem;
 }
 
 /* Sections*/
-.section-white-background{
+.section-white-background {
   background-color: white;
-
 }
+
 .section-red-background {
   background-color: #ff4d69;
   color: white;
-
 }
+
 .section-orange-background {
   background-color: #ef8172;
   color: white;
 }
-
-
 
 .feature-box {
   margin-top: 1rem;
@@ -197,11 +193,32 @@ font-size: 1.5rem;
     position: static;
   }
 
-
-  h3 {
-    font-size: 2rem;
+  .big-heading {
+    font-size: 4.5rem;
   }
 
+  .large-heading {
+    font-size: 4rem;
+  }
+
+  .medium-heading {
+    font-size: 3rem;
+  }
+
+  .nav-link {
+      font-size: 2rem;
+    }
+.download-button {
+  --bs-btn-font-size: 2rem;
+}
+
+.navbar-toggler {
+
+}
+.navbar {
+  --bs-navbar-toggler-font-size:2rem;
+}
+
   p {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
