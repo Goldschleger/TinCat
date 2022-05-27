@@ -1,0 +1,207 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+font-family:'Montserrat', sans-serif;
+font-weight: bold;
+}
+
+
+h3 {
+  color: black;
+}
+
+p {
+  padding: 0 12px;
+}
+
+/*Headings*/
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+.large-heading {
+  line-height: 1.5;
+  font-size: 3.0rem;
+
+}
+
+.medium-heading{
+font-size: 1.5rem;
+}
+
+
+#title {
+  text-align: center;
+}
+
+#features {
+  text-align: center;
+  color: #8f8f8f;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+
+/* Sections*/
+.section-white-background{
+  background-color: white;
+
+}
+.section-red-background {
+  background-color: #ff4d69;
+  color: white;
+
+}
+.section-orange-background {
+  background-color: #ef8172;
+  color: white;
+}
+
+
+
+.feature-box {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.container-fluid {
+  padding: 5% 12%;
+}
+
+.navbar {
+  padding-top: 0;
+  padding-bottom: 3rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  padding-left: 0;
+}
+
+.nav-item {
+  padding: 0 16px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+}
+
+/* Button Design*/
+.button-tinder {
+  background-color: #ff4d69;
+  border-color: #ff4d69;
+}
+
+/* Title Image*/
+.iphone5 {
+  width: 25%;
+  right: 16%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* Feature Images*/
+.feature-icon {
+  color: #ef8172;
+  margin-bottom: 1.5rem;
+}
+
+.feature-icon:hover {
+  color: #ff4d69;
+}
+
+/* Download-Buttons*/
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Testimonial Section*/
+#testimonials {
+  text-align: center;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.eddyblade-img {
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  margin: 20px;
+}
+
+.katja-img {
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 5% 12%;
+}
+
+/* Press Section*/
+#press {
+  padding: 5% 12%;
+  text-align: center;
+}
+
+.press-logos {
+  width: 15%;
+  margin: 20px;
+}
+
+/* Pricing Section*/
+#pricing {
+  padding: 5% 12%;
+}
+
+.pricing-column {
+  padding: 3% 2%
+}
+
+/* CallToAction Section*/
+#cta {
+  text-align: center;
+  padding: 12% 12%;
+}
+
+/* Footer Section*/
+#footer {
+  text-align: center;
+  padding: 5% 12%;
+}
+
+/* Media Query*/
+@media (max-width:993px) {
+  .iphone5 {
+    width: 40%;
+    right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotate(0deg);
+    position: static;
+  }
+
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
